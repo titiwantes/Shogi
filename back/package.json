@@ -1,0 +1,18 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Thierry Masumbuko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.19",
+    "randomatic": "^3.1.1",
+    "socket.io": "^4.5.1"
+  }
+}

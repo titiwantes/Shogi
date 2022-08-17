@@ -1,0 +1,35 @@
+.tile {
+    width: 98px;
+    height: 98px;
+    border: solid 1px rgb(128, 100, 63);
+    background-color: rgb(202, 158, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile.sente:active{
+    cursor: grabbing;
+}
+
+.piece{
+    width: 98px;
+    height: 98px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.piece.sente{
+    cursor: grab;
+}
+
+.tile.gote {
+}
+
+.tile.sente img {
+}
+
+.tile::hover {
+    background-color: rgb(150, 130, 104);
+}
